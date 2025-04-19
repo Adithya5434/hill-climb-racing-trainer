@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox
 from pymem import Pymem
 from pymem.process import module_from_name
+import os
+import sys
 
 # check if game is running 
 try:
@@ -9,7 +11,7 @@ try:
 except Exception as e:
     print(f"Game not running: {e}")
     messagebox.showerror("Error", "Hill Climb Racing is not running.")
-    exit()
+    sys.exit()
 
 
 module = module_from_name(mem.process_handle, "HillClimbRacing.exe").lpBaseOfDll
@@ -37,7 +39,8 @@ def set_diamonds():
 root = tk.Tk()
 root.title("HCR Trainer")
 root.resizable(False, False)
-root.iconbitmap("hcr.ico")
+iconfile = os.path.join(os.path.dirname(__file__), 'hcr.ico')
+root.iconbitmap(iconfile)
 
 # money
 money_label = tk.Label(root, text="Money:", font=("Arial", 10))
