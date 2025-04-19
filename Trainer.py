@@ -37,7 +37,7 @@ def set_diamonds():
 root = tk.Tk()
 root.title("HCR Trainer")
 root.resizable(False, False)
-
+root.iconbitmap("hcr.ico")
 
 # money
 money_label = tk.Label(root, text="Money:", font=("Arial", 10))
