@@ -1,6 +1,6 @@
 # Hill Climb Racing Trainer 🛠️
 
-A simple trainer for **Hill Climb Racing** (PC version) to modify in-game **Money** and **Diamonds** using memory editing.
+A simple trainer for **Hill Climb Racing** (PC version) to modify in-game **Money** and **Diamonds**.
 
 ## 🚀 How to Use
 1. Launch **Hill Climb Racing** (PC version).
