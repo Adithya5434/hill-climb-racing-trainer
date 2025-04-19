@@ -20,6 +20,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# Made by: https://github.com/Adithya5434/hill-climb-racing-trainer
+
 import tkinter as tk
 from tkinter import messagebox
 from pymem import Pymem
