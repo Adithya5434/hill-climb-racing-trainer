@@ -10,6 +10,10 @@ A simple trainer for **Hill Climb Racing** (PC version) to modify in-game **Mone
 
 > 💡 Note: Values only update when you are in the **main menu** of the game.
 
+## Screenshot
+
+![Trainer UI](screenshot.png)
+
 ## 👨‍💻 Author
 - [Adithya5434](https://github.com/Adithya5434)
 
