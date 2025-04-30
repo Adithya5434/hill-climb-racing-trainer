@@ -20,3 +20,4 @@ target_link_libraries(
 )
 
 set_target_properties(HCRTrainer PROPERTIES LINK_FLAGS "/SUBSYSTEM:WINDOWS")
+target_compile_options(HCRTrainer PRIVATE /O2 /DNDEBUG)
