@@ -16,8 +16,9 @@ A simple trainer for **Hill Climb Racing** (PC version) to modify in-game **Mone
 
 ## 👨‍💻 Author
 - [Adithya5434](https://github.com/Adithya5434)
+- [Advik](https://github.com/Advik-B)
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.txt).
 
 (idk why I made this... no one plays this game nowadays)
