@@ -163,7 +163,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow) {
     CreateWindowW(L"STATIC", L"Note: value only updates on main menu.", WS_VISIBLE | WS_CHILD,
         10, 70, 280, 20, hwnd, nullptr, hInstance, nullptr);
 
-    CreateWindowW(L"STATIC", L"Made by: github.com/Advik", WS_VISIBLE | WS_CHILD,
+    CreateWindowW(L"STATIC", L"Made by: github.com/Adithya & github.com/Advik-B", WS_VISIBLE | WS_CHILD,
         10, 90, 280, 20, hwnd, nullptr, hInstance, nullptr);
 
     ShowWindow(hwnd, nCmdShow);
